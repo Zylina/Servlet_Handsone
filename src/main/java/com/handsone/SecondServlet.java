@@ -27,7 +27,7 @@ public class SecondServlet extends HttpServlet {
 		    response.setContentType("text/html");  
 		    PrintWriter out = response.getWriter();  
 		      
-		  //  Cookie c[]=request.getCookies();  
+		    Cookie c[]=request.getCookies();  
 		    out.print("Hello "+"Himanshi Gupta"+ " " + " Friends"); 
 		    
 		  

@@ -32,8 +32,8 @@ public class FirstServlet extends HttpServlet {
 			    if(n.equals("1")) {
 			    out.print("Welcome "+"Himanshi Gupta");  
 			 
-			   // Cookie c=new Cookie("id",n);//creating cookie object  
-			  //  response.addCookie(c);//adding cookie in the response  
+			   Cookie c=new Cookie("id",n);//creating cookie object  
+			   response.addCookie(c);//adding cookie in the response  
 			  
 			    //creating submit button  
 			    out.print("<form action='servlet2'method='post'>");  
